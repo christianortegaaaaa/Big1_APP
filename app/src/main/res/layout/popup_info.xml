@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="350dp"
-    android:layout_height="500dp"
+    android:layout_height="400dp"
     style="@style/popbg"
     android:padding="5dp"
     android:layout_gravity="center">
@@ -59,7 +59,7 @@
                 android:layout_height="30dp"
                 android:text="Created by:"
                 android:gravity="center"
-                android:layout_marginTop="50dp"
+
                 android:textColor="#000"
                 android:textSize="18sp" />
 

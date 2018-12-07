@@ -25,12 +25,17 @@
         <activity android:name=".Before">
 
         </activity>
+        <activity android:name=".During">
+
+        </activity>
         <activity android:name=".After">
 
         </activity>
         <activity android:name=".Staging">
 
         </activity>
+
+
     </application>
 
 </manifest>

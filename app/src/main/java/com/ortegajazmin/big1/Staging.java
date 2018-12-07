@@ -102,7 +102,7 @@ public class Staging extends AppCompatActivity {
                 "Quezon City\t\t\t\t\n" +
                 "San Juan\n" +
                 "Mandaluyong");
-        north.add("Staging Area/s:");
+        north.add("Click your Chosen Staging Area for Directions:");
         north.add("Memorial Golf Course");
         north.add("University of the Philippines (UP) Diliman");
 
@@ -115,14 +115,14 @@ public class Staging extends AppCompatActivity {
                 "Pateros\n" +
                 "Taguig\n" +
                 "Pasay");
-        south.add("Staging Area/s:");
+        south.add("Click your Chosen Staging Area for Directions:");
         south.add("Villamor Air Base Golf Course");
 
         List<String> east = new ArrayList<String>();
         east.add("Cities covered by this Quadrant:\n" +
                 "Pasig\t\n" +
                 "Marikina");
-        east.add("Staging Area/s:");
+        east.add("Click your Chosen Staging Area for Directions:");
         east.add("LRT-2 Santolan Depot");
         east.add("Marikina Boys Town");
         east.add("Red Cross Marikina");
@@ -133,7 +133,7 @@ public class Staging extends AppCompatActivity {
                 "Manila\t\t\t\t\n" +
                 "Malabon\n" +
                 "Navotas");
-        west.add("Staging Area/s:");
+        west.add("Click your Chosen Staging Area for Directions:");
         west.add("Intramuros Golf Course");
 
 

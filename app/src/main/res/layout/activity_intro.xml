@@ -17,9 +17,9 @@
             android:id="@+id/imageView"
             android:layout_width="349dp"
             android:layout_height="323dp"
-            android:layout_marginLeft="18dp"
-            android:layout_above="@+id/btnStart"
 
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
             app:srcCompat="@drawable/big1" />
 
         <Button
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="142dp"
+            android:layout_marginBottom="124dp"
             android:background="@drawable/buttoncurve"
             android:paddingLeft="25dp"
             android:paddingRight="25dp"
@@ -42,7 +42,7 @@
             android:layout_height="75dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="14dp"
             android:background="@drawable/buttoncurve"
             android:paddingLeft="25dp"
             android:paddingRight="25dp"
