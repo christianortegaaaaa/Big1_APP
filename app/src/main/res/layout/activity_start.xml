@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/bg2"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:clickable="true"
+            android:onClick="clickBack"
+            android:text="Back" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="314dp"
+            android:layout_height="256dp"
+            android:layout_below="@+id/back"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/big1" />
+
+        <Button
+            android:id="@+id/btnDuring"
+            style="@style/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="189dp"
+            android:background="@drawable/roundedbutton"
+            android:text="During an earthquake" />
+
+        <Button
+            android:id="@+id/btnBefore"
+            style="@style/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="245dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Before an earthquake" />
+
+        <Button
+            android:id="@+id/btnAfter"
+            style="@style/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="130dp"
+            android:background="@drawable/roundedbutton"
+            android:text="After an earthquake" />
+
+        <Button
+            android:id="@+id/btnStaging"
+            style="@style/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Staging Areas" />
+
+        <Button
+            android:id="@+id/btnFault"
+            style="@style/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="71dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Fault Finder" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    style="@style/popbg"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/bg2">
+
+        <TextView
+            style="@style/popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="INFORMATION"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@style/bg2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/popup"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="The Big1 is a quick guide in preparing for the Big One, which may happen in our lifetime."
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                style="@style/popup"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Created by:"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                style="@style/popup"
+                android:text="Jazmin, Charlyn"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Ortega, Christian"
+                android:textColor="#000"
+                android:gravity="center"
+                style="@style/popup"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4IT-C"
+                android:textColor="#000"
+                android:gravity="center"
+                style="@style/popup"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnclose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+
+                    android:text="Close"
+                    style="@style/popupclose"
+                    android:textColor="#fff"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

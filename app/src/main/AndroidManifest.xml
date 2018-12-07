@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ortegajazmin.big1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/big1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Start">
+
+        </activity>
+        <activity android:name=".What">
+
+        </activity>
+        <activity android:name=".Before">
+
+        </activity>
+        <activity android:name=".After">
+
+        </activity>
+        <activity android:name=".Staging">
+
+        </activity>
+    </application>
+
+</manifest>
